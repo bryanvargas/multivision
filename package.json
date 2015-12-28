@@ -1,0 +1,23 @@
+{
+  "name": "multivision",
+  "version": "1.0.0",
+  "description": "Desarollo de aplicacion MEAN STACK JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanvargas/multivision.git"
+  },
+  "author": "Bryan Vargas <bryanprsvar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryanvargas/multivision/issues"
+  },
+  "homepage": "https://github.com/bryanvargas/multivision#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  }
+}
