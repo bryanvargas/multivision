@@ -17,7 +17,15 @@
   },
   "homepage": "https://github.com/bryanvargas/multivision#readme",
   "dependencies": {
+    "body-parser": "latest",
+    "cookie-parser": "latest",
     "express": "^4.13.3",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "method-override": "latest",
+    "mongoose": "^4.3.4",
+    "morgan": "latest",
+    "nib": "^1.1.0",
+    "serve-favicon": "latest",
+    "stylus": "^0.53.0"
   }
 }
