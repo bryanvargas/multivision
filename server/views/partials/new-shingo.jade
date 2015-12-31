@@ -1,0 +1,6 @@
+.panel.panel-primary
+    .panel-heading.text-center Shingo News
+    .panel-body
+        .row(ng-repeat="shingo in shingos | orderBy:published:true | limitTo:10")
+            .col-md-3 {{shingo.published | date:'MMM d'}}
+            .col-md-9 {{shingo.name}}

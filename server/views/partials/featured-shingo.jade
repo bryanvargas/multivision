@@ -1,0 +1,6 @@
+.panel.panel-primary
+    .panel-heading.text-center Shingo Destacados
+    .panel-body
+        .row(ng-repeat="shingo in shingos | filter:featured : true;")
+            .col-md-12 {{shingo.name}}
+       //.row( ng-repeat="friend in friends | filter:searchText")
